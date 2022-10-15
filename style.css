@@ -1,0 +1,51 @@
+
+/* .body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgb(52, 112, 146);
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly
+}
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+/* } */
+
+
+.container div{
+    text-align: center;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin-top: 5%;
+    border: 10px solid gray;
+    box-shadow: 1px 1px 30px 1px black;
+}
+
+.box p{
+    font-weight: bold;
+}
+
+.container div:hover{
+    box-shadow: 1px 1px 60px 1px black;
+}
+
+.drumset img{
+    align-items: center;
+    height: 30%;
+    width: 40%;
+    margin-top: 0rem;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.drumset{
+    margin-left: 10cm;
+}
